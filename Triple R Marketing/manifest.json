@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Triple R Ambassador",
+  "version": "5.0",
+  "description": "Quick access to ready to use email replies.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://weblytica-llc.github.io/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["Triple-R-Marketing_Logo_Horizontal.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

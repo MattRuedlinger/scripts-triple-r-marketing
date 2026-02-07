@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 16px;
+  background: #fff;
+  min-width: 600px;
+  max-width: 610px;
+  max-height: 90vh;
+  overflow-y: auto;
+  margin-bottom:10px;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+#logo {
+  height: 60px;
+  width: auto;
+  margin:auto;
+}
+
+#categoryDropdown, #searchInput {
+  width: 99%;
+  margin-bottom: 8px;
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
+
+#searchInput	{
+  width:94%;
+}
+
+.reply-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background: #fafafa;
+  text-align: left;
+  overflow: hidden;
+}
+
+.reply-title {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size:16px;
+  line-height:20px;
+  color:#002E5D;
+  padding: 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.reply-title:hover {
+  background-color: #f0f0f0;
+}
+
+.reply-title::after {
+  content: '▼';
+  float: right;
+  transition: transform 0.2s;
+}
+
+.reply-title.collapsed::after {
+  transform: rotate(-90deg);
+}
+
+.reply-content {
+  padding: 12px;
+  display: none;
+}
+
+.reply-content.open {
+  display: block;
+}
+
+.reply-subject {
+  font-size: 14px;
+  color: #545454;
+  margin-bottom: 6px;
+}
+
+#repliesList > div:nth-child(3) > div.reply-subject > strong	{
+   color:#002E5D!important;
+}
+
+.email-body {
+  font-size: 14px;
+  color: #545454;
+  margin: 20px 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background:transparent;
+}
+
+.email-body p	{
+    background:transparent;
+}
+
+.button-row {
+  display: flex;
+  gap: 8px;
+}
+
+.copy-btn {
+  flex: 1 1 50%;
+  padding: 6px 0;
+  border: none;
+  border-radius: 4px;
+  background: #002E5D;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.copy-btn:hover {
+  background: #e87722;
+}
+
+.copy-btn:active {
+  background: #7fd2e8;
+}
+
+.hidden {
+  display: none !important;
+}
