@@ -7,7 +7,7 @@
     "storage"
   ],
   "host_permissions": [
-    "https://weblytica-llc.github.io/*"
+    "https://mattruedlinger.github.io/*"
   ],
   "background": {
     "service_worker": "background.js"

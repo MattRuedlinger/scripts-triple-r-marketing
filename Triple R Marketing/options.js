@@ -1,4 +1,4 @@
-const BASE_URL = 'https://MattRuedlinger.github.io/scripts';
+const BASE_URL = 'https://mattruedlinger.github.io/scripts-triple-r-marketing';
 
 document.addEventListener('DOMContentLoaded', function() {
   const apiKeyInput = document.getElementById('apiKey');
