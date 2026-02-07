@@ -26,7 +26,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["Triple-R-Marketing_Logo_Horizontal.png"],
+      "resources": ["triplermarketing_logo_horizontal.png"],
       "matches": ["<all_urls>"]
     }
   ]
