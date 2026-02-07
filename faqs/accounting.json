@@ -1,0 +1,14 @@
+[
+  {
+    "Title": "Account Now PrePay & Past Due Notice",
+    "Category": "Accounting",
+    "Subject Line": "Urgent Action Required: Past Due Invoices & Account Status Update",
+    "Content": "<p>We've reached out multiple times regarding your past due invoices, and you've previously assured us that payment would be made. However, as of today, these invoices remain unpaid.</p><p>Please be advised that all past due invoices must be paid in full by June 20th. Failure to meet this deadline will result in us taking additional actions to resolve the outstanding balance. </p><p>Due to the continued past due balances, your account has been moved to prepay status. Your online store has been updated to require a credit card payment at checkout. Going forward, no orders will be processed without full payment at the time of purchase.</p><p>We appreciate your prompt attention to this matter. If you have any questions or need a copy of your outstanding invoices, please let us know.</p>"
+  },
+  {
+    "Title": "Corporate Help Request on Community Past Due Invoices",
+    "Category": "Accounting",
+    "Subject Line": "Immediate Action Required — Past Due Invoice for [Community Name]",
+    "Content": "<p>Hi [Corporate Contact Name],</p><p>I'm writing regarding Invoice #[####] for [Community Name], issued on [Original Invoice Date] in the amount of $[Amount]. The invoice is now [XX] days past due.</p><p>At that time, we extended credit under [Corporate Name] account, and as such, we are respectfully requesting your assistance in resolving the balance.</p><p>Per our policy, individual communities are placed on hold at 30 days past due, and the entire corporate account is placed on hold at 40 days past due. This invoice has crossed the community level threshold, and we're now approaching the point where the full corporate account will be affected.</p><p>We've sent several prior notices, and our goal is to avoid escalation and disruption across all communities. Please arrange payment by [Firm Deadline] to avoid a full account hold.</p><p>A copy of the invoice is attached. If there are any concerns or documentation needed, let me know today.</p><p>Thank you for your attention to this matter.</p><p>Regards,</p>"
+  }
+]
