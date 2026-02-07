@@ -8,5 +8,35 @@
     "id": "admin",
     "name": "Admin",
     "description": "Administrators with access to plugin management guides"
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "description": "Design team scripts"
+  },
+  {
+    "id": "accounting",
+    "name": "Accounting",
+    "description": "Accounting team scripts"
+  },
+  {
+    "id": "support",
+    "name": "Support",
+    "description": "Support team scripts"
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "description": "Marketing team scripts"
+  },
+  {
+    "id": "purchasing",
+    "name": "Purchasing",
+    "description": "Purchasing team scripts"
+  },
+  {
+    "id": "administration",
+    "name": "Administration",
+    "description": "Administration team scripts"
   }
 ]

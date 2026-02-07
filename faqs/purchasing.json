@@ -1,0 +1,62 @@
+[
+  {
+    "Title": "Missing Package (15- Days After Delivery Date)",
+    "Category": "Purchasing",
+    "Subject Line": "Package Not Received – Order [Order Number]",
+    "Content": "<p>Hi [Customer Name],</p><p>Thank you for bringing this shipping issue to our attention. We know it's frustrating when a package either doesn't arrive on time or shows delivered but can't be found, and we want to help resolve this for you as quickly as possible.</p><p>According to [Shipping Carrier], tracking number [Tracking Number] for order [Order Number] shows it was delivered on [Delivered Date] and signed for by [Name]. Could you please check with your team, including the maintenance staff, to see if the package was received and set aside?</p><p>If it turns out the package isn't located, just let us know and we will open an investigation with [Shipping Carrier]. Their process can take up to 10 business days. If the package still can't be found after that, we'll be happy to send you a replacement order at no additional cost.</p><p>Thank you for your patience and understanding while we get this sorted out.</p><p>Best Regards</p>"
+  },
+  {
+    "Title": "Missing Package (15+ Days After Delivery Date)",
+    "Category": "Purchasing",
+    "Subject Line": "Missing Package – Order #[Order Number]",
+    "Content": "<p>Thank you for reaching out. We've received your inquiry regarding your missing package and will be reviewing the details shortly. One of our team members will follow up with you as soon as possible.</p><p>Per the \"Order Has Been Delivered\" email notification that was sent on [Date] to [Email]:</p><p>Your order has been delivered. Please open all packages and review immediately! If you do not see your package, please contact our office within 2 business days from today so we can initiate a trace on your order. Delaying your request reduces the chances of locating your package, and if not reported in time, you may still be responsible for the charges associated with your order. See our Frequently Asked Questions for more information on our return policy, including timelines and eligibility criteria.</p><p>As also outlined in our FAQ:</p><p>We consider an order \"delivered\" when the shipping carrier scans it as delivered and our system sends the \"Order Has Been Delivered\" email with tracking.</p><p>If you can't locate your package after receiving the delivered email, you must notify us within 15 calendar days of the email's timestamp. Reports received after this window may not be eligible for investigation, and the customer will remain liable for the full invoice amount.</p><p>To ensure we can help, please confirm the following:</p><ul><li>Have you checked all areas where packages are typically left (e.g., front/back porch, building mailroom, with neighbors, etc.)?</li><li>Was the shipping address correct on your order confirmation?</li></ul><p>If your package is still missing, we will initiate a trace with the carrier and provide updates as they're made available. Please note, resolution options (such as replacement or credit) are determined based on the carrier's investigation and product availability.</p><p>This policy is separate from our Returns Policy for defective or incorrect items, which is handled under a different process and timeline.</p><p>We appreciate your understanding and will be in touch shortly with next steps.</p>"
+  },
+  {
+    "Title": "Order Cancellation Due to Missing Approval",
+    "Category": "Purchasing",
+    "Subject Line": "Order Cancellation Due to Missing Approval",
+    "Content": "<p>We wanted to follow up regarding your recent order [Order #].</p><p>Unfortunately, since we did not receive the necessary approval to proceed within the 10-business-day window, the order has been automatically cancelled per our standard process. We understand how important timely delivery is, and this policy helps ensure production timelines are maintained.</p><p>According to our records, the individual responsible for approving your orders is: [Approver's Full Name]</p><p>We encourage you to reach out to them directly to confirm they are still reviewing and approving orders. If this person is no longer with your organization or is not the appropriate contact, please let us know as soon as possible so we can coordinate with your marketing team to update our records and prevent future delays.</p><p>To proceed, a new order will need to be submitted, as we are unable to reinstate cancelled orders once the 10-day approval window has passed.</p><p>If you have any questions or need assistance placing your new order, feel free to reach out, we're happy to help.</p><p>Thank you for your understanding and continued partnership.</p>"
+  },
+  {
+    "Title": "Order Status Update (Not Shipped Yet)",
+    "Category": "Purchasing",
+    "Subject Line": "Order Status Update – [Order #]",
+    "Content": "<p>Your order [Order #] is currently in production. The estimated ship date provided by the manufacturer is [Insert Estimated Ship Date].</p><p>Please note this date reflects when the order is expected to leave the manufacturer's facility and does not include shipping/transit time.</p><p>As a reminder, courier services such as FedEx and UPS no longer guarantee delivery times on standard services and do not offer compensation for delays. We always recommend allowing extra time between placing your order and any critical deadlines or event dates.</p><p>If you have any further questions or need help with anything else, please don't hesitate to reach out. We appreciate your business and are always happy to assist!</p>"
+  },
+  {
+    "Title": "Order Status Update (Shipped & Delivered)",
+    "Category": "Purchasing",
+    "Subject Line": "Order Status Update – [Order #]",
+    "Content": "<p>According to the tracking information, your order [Order #] was delivered on:</p><p>Carrier: [FedEx/UPS/Other]Tracking Number: [Insert Tracking #]Delivered Date: [Insert Delivered Date]Tracking Link: [Insert Tracking URL]</p><p>Please Note: We consider an order \"delivered\" when the carrier scans it as delivered and our system sends the \"Order Has Been Delivered\" email.</p><p>If you're unable to locate your package after receiving this confirmation, you must notify us within 15 calendar days of the delivery email's timestamp.</p><p>To report a missing package, please email orders@triplermarketing.com with the subject line: \"Missing Package – Order #[Your Order Number]\"</p><p>Once received, we will open a trace with the carrier and share updates as they become available. Any resolution (replacement or credit) will be determined based on the carrier's investigation and current product availability.</p><p>Note: This process is separate from our Returns Policy. If your order arrived defective or with incorrect items/specs, please refer to our Returns Policy for the proper steps and timeline.</p><p>If you have any additional questions, feel free to reach out, we're here to help!</p>"
+  },
+  {
+    "Title": "Order Status Update (Shipped & In Transit)",
+    "Category": "Purchasing",
+    "Subject Line": "Order Status Update – [Order #]",
+    "Content": "<p>Your order [Order #] has shipped and is currently in transit. Below are the tracking details:</p><p>Carrier: [FedEx/UPS/Other]Tracking Number: [Insert Tracking #]Tracking Link: [Insert Tracking URL]Shipped Date: [Insert Shipped Date]</p><p>You can monitor the status using the tracking link above. Delivery times vary by region and service level, and please note that standard shipping services are not guaranteed by the carriers.</p><p>If you have any additional questions, feel free to reach out, we're here to help!</p>"
+  },
+  {
+    "Title": "Response to Support Request",
+    "Category": "Purchasing",
+    "Subject Line": "Response to Support Request",
+    "Content": "<p>To ensure your needs are processed efficiently, please submit your request via your Marketing Dashboard. This will ensure your requests are added to the queue to be worked and allow you to communicate directly within the ticket. If you do not have access to the Marketing Dashboard please reach out to your Marketing Team so they can submit your request.</p><p>Thank you,</p>"
+  },
+  {
+    "Title": "Return Request",
+    "Category": "Purchasing",
+    "Subject Line": "Return Request – [Order #]",
+    "Content": "<p>Thank you for reaching out. We're sorry to hear that you're not fully satisfied with your order.</p><p>As noted in our policy, we're unable to offer returns or refunds for items unless they are faulty, have factory defects, or were produced incorrectly. Since the items you received were custom branded and fulfilled according to the approved specifications, we're unfortunately unable to accept a return in this case.</p><p>We understand this may be disappointing and truly appreciate your understanding. If you believe there may have been an issue with the order (such as a defect or error), please don't hesitate to let us know. Claims must be submitted in writing within 15 days of receipt, and we encourage including photos and a detailed description to help us review it promptly. You can send this information to: orders@triplermarketing.com.</p><p>Thank you again for your business.</p>"
+  },
+  {
+    "Title": "Rush Order Request",
+    "Category": "Purchasing",
+    "Subject Line": "Rush Order Request",
+    "Content": "<p>Thanks for reaching out! To ensure we have all the information needed to properly evaluate and attempt to process your rush order, we require that our Rush Order Request Form be completed.</p><p>This form helps us assess production capacity, shipping feasibility, and turnaround expectations so we can give your request the attention it deserves.</p><p>You can access the form here: <a href=\"https://triplermarketing.com/rush-order-request/\" target=\"_blank\">HERE</a></p><p>Once submitted, our team will review it promptly and confirm whether the rush timeline is possible. Please note that orders without the form will be processed with standard production and shipping.</p><p>Let us know if you have any questions.</p><p>Best regards,</p>"
+  },
+  {
+    "Title": "Update Shipping Address",
+    "Category": "Purchasing",
+    "Subject Line": "Update Shipping Address",
+    "Content": "<p>To update the shipping address on your order, please visit the following link and complete the form: <a href=\"https://triplermarketing.knack.com/dashboard#change-address/\" target=\"_blank\">CHANGE ADDRESS</a></p><p>Important Notes:</p><p>If your order has already been packaged and labeled, we may not be able to update the shipping address in time.</p><p>Address changes are not guaranteed once an order has been submitted. We will do our best to accommodate your request, but please understand that processing times can vary.</p><p>This form is for address changes only, it does not cancel or delay the order.</p><p>For time-sensitive orders or urgent changes, please contact us immediately after submitting the form so we can attempt to intervene before shipping.</p><p>Let us know if you have any questions or need further assistance.</p>"
+  }
+]
