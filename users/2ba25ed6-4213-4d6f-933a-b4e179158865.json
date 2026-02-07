@@ -1,0 +1,6 @@
+{
+  "firstName": "Matt",
+  "lastName": "Rudelinger",
+  "roles": ["general", "admin"],
+  "enabled": true
+}
