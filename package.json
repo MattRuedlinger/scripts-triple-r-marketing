@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "scripts-triple-r-marketing",
+  "description": "FAQ/canned email reply system with Chrome extension",
+  "devDependencies": {
+    "eslint": "^9"
+  }
+}
