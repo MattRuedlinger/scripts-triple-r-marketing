@@ -1,0 +1,14 @@
+[
+  {
+    "Category": "Marketing Team",
+    "Content": "testing",
+    "Subject Line": "This is a test.",
+    "Title": "Marketing Test"
+  },
+  {
+    "Title": "Email Intro",
+    "Category": "Marketing",
+    "Subject Line": "Introduction to Matt at Triple R",
+    "Content": "<p>I wanted to touch base and see if you'd be open to a brief introduction to Matt at Triple R Marketing.</p><p>The reason I thought of you is they've really found the key to helping communities have their own online store, with your oversight built in, which saves time, maintains brand control, and removes a lot of the busywork that usually comes with it.</p><p>If you're open to it, I'm happy to make the intro.</p>"
+  }
+]

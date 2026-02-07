@@ -1,0 +1,20 @@
+[
+  {
+    "Title": "Adding New Scripts",
+    "Category": "Plugin Management",
+    "Subject Line": "How to Add Scripts Using Claude Code",
+    "Content": "<p>To add new scripts to the Triple R Ambassador plugin:</p><ol><li>Open Claude Code and connect to the triplermarketing-scripts repository on GitHub</li><li>Tell Claude what script you want to add in natural language, for example:</li><li><em>\"Add a new script with Title 'Welcome Email', Category 'Greetings', Subject Line 'Welcome to Our Team!', Content '...your email text...', and assign it to the general role\"</em></li><li>Claude will edit the appropriate faqs/{role}.json file and commit the changes</li><li>Once pushed, the new script will be available to users with that role</li></ol><p><strong>Tip:</strong> You can add multiple scripts at once by listing them all in your request.</p>"
+  },
+  {
+    "Title": "Managing Users",
+    "Category": "Plugin Management",
+    "Subject Line": "How to Manage Users Using Claude Code",
+    "Content": "<p>To manage users for the Triple R Ambassador plugin:</p><p><strong>Adding a new user:</strong></p><p>Tell Claude: <em>\"Create a new user named John Smith with the general role\"</em></p><p>Claude will generate a UUID API key and create a file in the users/ folder.</p><p><strong>Updating a user:</strong></p><p>Tell Claude: <em>\"Add the admin role to user John Smith\"</em> or <em>\"Disable the user with API key abc123...\"</em></p><p><strong>Deleting a user:</strong></p><p>Tell Claude: <em>\"Delete the user named John Smith\"</em> or <em>\"Remove the user file for API key abc123...\"</em></p><p><strong>Listing users:</strong></p><p>Ask Claude: <em>\"What users exist?\"</em> or <em>\"Show me all users and their roles\"</em></p><p>All changes are committed to GitHub and take effect once the GitHub Pages cache updates (usually within minutes).</p>"
+  },
+  {
+    "Title": "Managing Roles",
+    "Category": "Plugin Management",
+    "Subject Line": "How to Manage Roles Using Claude Code",
+    "Content": "<p>To manage roles for the Triple R Ambassador plugin:</p><p><strong>Creating a new role:</strong></p><p>Tell Claude: <em>\"Create a new role called 'sales' with description 'Sales team scripts'\"</em></p><p>Claude will update roles.json and create an empty faqs/sales.json file.</p><p><strong>Assigning roles to users:</strong></p><p>Tell Claude: <em>\"Give the sales role to user Jane Doe\"</em></p><p><strong>Viewing roles:</strong></p><p>Ask Claude: <em>\"What roles exist?\"</em> or <em>\"Show me all roles and their descriptions\"</em></p><p><strong>Deleting a role:</strong></p><p>Tell Claude: <em>\"Delete the sales role\"</em></p><p>Note: This will also remove the associated faqs file. Make sure no users depend on it first.</p><p>Remember: Users only see scripts for roles they're assigned to. The 'general' role is typically given to all users.</p>"
+  }
+]
