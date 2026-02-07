@@ -1,4 +1,4 @@
-const BASE_URL = 'https://MattRuedlinger.github.io/scripts';
+const BASE_URL = 'https://mattruedlinger.github.io/scripts-triple-r-marketing';
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "fetchUserData") {
