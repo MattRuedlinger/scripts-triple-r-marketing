@@ -1,0 +1,22 @@
+[
+  {
+    "id": "general",
+    "name": "General",
+    "description": "FAQs visible to all authenticated users"
+  },
+  {
+    "id": "admin",
+    "name": "Admin",
+    "description": "Administrators with access to plugin management guides"
+  },
+  {
+    "id": "sales",
+    "name": "Sales",
+    "description": "Sales team scripts"
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "description": "Marketing team scripts"
+  }
+]
