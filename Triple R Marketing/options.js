@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         showStatus('Connection successful! API key is valid.', 'success');
         userName.textContent = `${data.firstName} ${data.lastName}`;
-        userRoles.textContent = data.roles.join(', ');
+        userRoles.textContent = data.categories.join(', ');
         userInfo.classList.remove('hidden');
       })
       .catch(error => {

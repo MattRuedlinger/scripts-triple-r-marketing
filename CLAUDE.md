@@ -32,9 +32,9 @@ When asking the user for script details, request:
 - **Category**
 - **Subject Line**
 - **Content**
-- **Role** (which role's FAQ file this script belongs to)
+- **Category** (which category's FAQ file this script belongs to)
 
-If the user specifies a role that doesn't exist, confirm with them before creating the new role.
+If the user specifies a category that doesn't exist, confirm with them before creating the new category.
 
 ## Adding Roles
 
@@ -50,8 +50,8 @@ When displaying users in a table, include these columns in order:
 1. **#** - Row number
 2. **Name** - First and last name
 3. **API Key** - The user's UUID
-4. **Roles** - Comma-separated list of roles
-5. **Admin** - Yes/No based on whether user has admin role
+4. **Categories** - Comma-separated list of categories
+5. **Admin** - Yes/No based on whether user has admin category
 6. **Enabled** - Yes/No
 
 ## Roles
@@ -131,7 +131,7 @@ Create `users/{generated-uuid}.json`:
 {
   "firstName": "Admin",
   "lastName": "User",
-  "roles": ["general", "admin"],
+  "categories": ["general", "admin"],
   "enabled": true
 }
 ```

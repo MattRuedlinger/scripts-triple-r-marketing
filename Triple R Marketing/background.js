@@ -30,7 +30,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
 
   if (request.action === "fetchFAQsForRoles") {
-    const roles = request.roles;
+    const roles = request.categories;
     const cacheBuster = `?t=${Date.now()}`;
     const isAdmin = roles.includes('admin');
 

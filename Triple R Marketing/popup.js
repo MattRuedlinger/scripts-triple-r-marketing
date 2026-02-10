@@ -363,7 +363,7 @@ function loadDataAndRender() {
 
         // Now fetch FAQs based on user's roles
         chrome.runtime.sendMessage(
-          { action: "fetchFAQsForRoles", roles: currentUser.roles },
+          { action: "fetchFAQsForRoles", categories: currentUser.categories },
           (faqResponse) => {
             if (chrome.runtime.lastError) {
               showError('Failed to load FAQs.', false);

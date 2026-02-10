@@ -1,6 +1,6 @@
 {
   "firstName": "Matt",
   "lastName": "Rudelinger",
-  "roles": ["general", "admin"],
+  "categories": ["general", "admin"],
   "enabled": true
 }
