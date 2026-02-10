@@ -163,6 +163,13 @@ function populateCategoryDropdown(categories, selected) {
     dropdown.appendChild(option);
   });
 
+  // Hide dropdown if only one category (single role)
+  if (categories.length <= 1) {
+    dropdown.classList.add('hidden');
+  } else {
+    dropdown.classList.remove('hidden');
+  }
+
   // Attach the event listener here, after dropdown is populated
   dropdown.onchange = function() {
     selectedCategory = this.value;
