@@ -163,6 +163,13 @@ function populateCategoryDropdown(categories, selected) {
     dropdown.appendChild(option);
   });
 
+  // Hide dropdown if only one category (single role)
+  if (categories.length <= 1) {
+    dropdown.classList.add('hidden');
+  } else {
+    dropdown.classList.remove('hidden');
+  }
+
   // Attach the event listener here, after dropdown is populated
   dropdown.onchange = function() {
     selectedCategory = this.value;
@@ -356,7 +363,7 @@ function loadDataAndRender() {
 
         // Now fetch FAQs based on user's roles
         chrome.runtime.sendMessage(
-          { action: "fetchFAQsForRoles", roles: currentUser.roles },
+          { action: "fetchFAQsForRoles", categories: currentUser.categories },
           (faqResponse) => {
             if (chrome.runtime.lastError) {
               showError('Failed to load FAQs.', false);
