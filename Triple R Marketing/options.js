@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   chrome.storage.local.get(['apiKey'], function(result) {
     if (result.apiKey) {
       hasExistingKey = true;
-      apiKeyInput.placeholder = '••••••••-••••-••••-••••-••••••••••••';
+      apiKeyInput.placeholder = '••••••••••••••••••••••••';
       keyStatus.textContent = 'An API key is already saved. Enter a new key to replace it.';
       keyStatus.classList.remove('hidden');
     }
@@ -35,10 +35,10 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
 
-    // Basic UUID format validation
-    const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-    if (!uuidRegex.test(apiKey)) {
-      showStatus('Invalid API key format. Please enter a valid UUID.', 'error');
+    // Basic API key format validation (24-character hex string)
+    const apiKeyRegex = /^[0-9a-f]{24}$/i;
+    if (!apiKeyRegex.test(apiKey)) {
+      showStatus('Invalid API key format. Please enter a valid 24-character key.', 'error');
       return;
     }
 
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
         showStatus('API key saved successfully!', 'success');
         hasExistingKey = true;
         apiKeyInput.value = '';
-        apiKeyInput.placeholder = '••••••••-••••-••••-••••-••••••••••••';
+        apiKeyInput.placeholder = '••••••••••••••••••••••••';
         keyStatus.textContent = 'An API key is already saved. Enter a new key to replace it.';
         keyStatus.classList.remove('hidden');
         userInfo.classList.add('hidden');
